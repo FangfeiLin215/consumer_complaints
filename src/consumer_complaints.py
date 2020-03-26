@@ -17,7 +17,7 @@ def subset(list):
     for i in range(len(list)):
         temp = []
          #year
-        temp.append(int(list[i][0][0:4]))
+        temp.append(int(float(list[i][0][0:4])))
          #product
         temp.append(list[i][1])
          #company
